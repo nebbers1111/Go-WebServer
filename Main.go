@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
+	fmt.Println("Bitch has started")
 	http.HandleFunc("/", indexFunc)
 	http.ListenAndServe(":8080", nil)
 }
